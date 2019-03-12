@@ -59,7 +59,7 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git log` | View changes |
-> Type `q` to exit from git log screen.
+|Type `q` to exit from git log screen. |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
