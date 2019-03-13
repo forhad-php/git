@@ -21,7 +21,7 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | git commit -a -m "message" | Git add and commit in one command |
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm -r [file-name.txt]` | Remove a file or folder. `r` for using recursive command. To remove a folder inside another folder `git rm -r [parentFolder/childFolder]` |
 
 ### Branching & Merging
 
@@ -50,6 +50,13 @@ _A list of my commonly used Git commands_
 | `git push origin -u [new_name]` | -u to set upstream is optional, it configure the new local branch to track the pushed one |
 | `git push origin -d [old_name]` | delete finally |
 
+> Merge conflict issue :
+
+| Command | Description |
+| ------- | ----------- |
+| `git pull/merge origin [branch-name] --allow-unrelated-histories` | to merge the disparate branches which is now disabled by default in git but can be enabled with the `--allow-unrelated-histories` flag. Error look like `fatal: refusing to merge unrelated histories` |
+| `git checkout --ours/--theirs directory_name/*` | `--ours` to Accept Current Change, and for `--theirs` to Accept Incoming Change. `directory_name/*` to accept all file in the name of directory(multiple purpose) |
+
 ### Sharing & Updating Projects
 
 | Command | Description |
@@ -70,9 +77,3 @@ _A list of my commonly used Git commands_
 | `git log` | View changes. (type `q` to exit from git log screen) |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
-
-### Merge conflict issue
-
-| Command | Description |
-| `git pull/merge origin [branch-name] --allow-unrelated-histories` | to merge the disparate branches which is now disabled by default in git but can be enabled with the `--allow-unrelated-histories` flag. Error look like `fatal: refusing to merge unrelated histories` |
-| `git checkout --ours/--theirs directory_name/*` | `--ours` to Accept Current Change, and for `--theirs` to Accept Incoming Change. `directory_name/*` to accept all file in the name of directory(multiple purpose) |
