@@ -43,6 +43,7 @@ _A list of my commonly used Git commands_
 | `git stash clear` | Remove all stashed entries |
 
 > Situation : Rename a Git branch locally and remotely..
+
 | Command | Description |
 | ------- | ----------- |
 | `git branch -m [old_name] [new_name]` | move locally |
