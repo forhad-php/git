@@ -42,6 +42,8 @@ _A list of my commonly used Git commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
+> Situation : Delete all commit history..
+
 ### Sharing & Updating Projects
 
 | Command | Description |
