@@ -42,7 +42,12 @@ _A list of my commonly used Git commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-> Situation : Delete all commit history..
+> Situation : Rename a Git branch locally and remotely..
+| Command | Description |
+| ------- | ----------- |
+| `git branch -m [old_name] [new_name]` | move locally |
+| `git push origin -u [new_name]` | -u to set upstream is optional, it configure the new local branch to track the pushed one |
+| `git push origin -d [old_name]` | delete finally |
 
 ### Sharing & Updating Projects
 
