@@ -40,6 +40,7 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
+| `git stash list` | View a list of stashed changes |
 | `git stash clear` | Remove all stashed entries |
 
 > Situation : Rename a Git branch locally and remotely..
