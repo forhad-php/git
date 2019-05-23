@@ -20,6 +20,7 @@ _A list of my commonly used Git commands_
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit -m "first line" -m "second line" -m "third line"` | Multiline commit message |
 | git commit -a -m "message" | Git add and commit in one command |
 | `git rm -r [file-name.txt]` | Remove a file or folder. `r` for using recursive command. To remove a folder inside another folder `git rm -r [parentFolder/childFolder]` |
 
