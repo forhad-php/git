@@ -90,4 +90,4 @@ _A list of my commonly used Git commands_
 | `Enter passphrase (empty for no passphrase):` | Enter your password here |
 | `Enter same passphrase again:` | And here |
 | `Your public key has been saved in C:\Users\Forhad/.ssh/id_rsa.pub.` |  This is the location of your public key |
-| `clip < C:\Users\Forhad/.ssh/id_rsa.pub` | Write this command and automatically copy the key into your clipboard. Now paste it where you want |
+| `clip < C:\Users\Forhad/.ssh/id_rsa.pub` | Write this command and it will automatically be copied to the clipboard. Now paste the key where you want |
