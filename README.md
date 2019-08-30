@@ -85,7 +85,7 @@ _A list of my commonly used Git commands_
 
 | Command | Describe |
 | ------- | ----------- |
-| `ssh-keygen -t rsa -C "[mail@gmail.com]"` | Start with your own gmail account |
+| `ssh-keygen -t rsa -C "mail@gmail.com"` | Start with your own gmail account |
 | `Enter file in which to save the key (C:\Users\Forhad/.ssh/id_rsa):` | Leave this empty. Your key will be stored under `%USERPROFILE%\.ssh\` |
 | `Enter passphrase (empty for no passphrase):` | Enter your password here |
 | `Enter same passphrase again:` | And here |
