@@ -13,3 +13,5 @@
 ### Note: Why global .gitignore?
 
 > For example you are using jetbrains IDE, jetbrain will create .idea folder in your root project folder. then you also use Netbeans IDE, Netbeans will also create folder with name .nbprojects. you always ignore these files in every single project you’re working on.
+
+## Rename `gitignore.txt` to `.gitignore` and use it globally.
