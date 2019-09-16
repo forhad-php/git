@@ -1,4 +1,4 @@
-# According to → https://medium.com/surabayadev/configure-global-gitignore-66a4e665c075
+#### According to → https://medium.com/surabayadev/configure-global-gitignore-66a4e665c075
 
 ## First check whether it’s configure or not use command below:
 
