@@ -6,7 +6,7 @@
 
 ## If your global not yet configure you can configure it using command:
 
-`git config --global core.excludesfile 'C:\xampp\htdocs\.gitignore'`
+`git config --global core.excludesfile C:\xampp\htdocs\.gitignore`
 
 ## Check again..
 
