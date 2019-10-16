@@ -6,7 +6,7 @@ Emoji Code  | Commit Message
 ---|---
 `:sparkles:`  | Introducing new feature.
 `:heavy_plus_sign:`  | Adding a dependency.
- **Another Section**
+ ## Another Section
 `:iphone:` | Working on responsive design.
 `:globe_with_meridians:` | Internationalization and localization.
 `:bento:` | Adding or updating assets.
