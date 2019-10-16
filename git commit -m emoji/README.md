@@ -1,12 +1,10 @@
-## Init --
-`:tada:` Initial commit.
-
-## Adds --
 Emoji Code  | Commit Message
 ---|---
+**Init --**
+`:tada:` | Initial commit.
+**Adds --**
 `:sparkles:`  | Introducing new feature.
 `:heavy_plus_sign:`  | Adding a dependency.
- ## Another Section
 `:iphone:` | Working on responsive design.
 `:globe_with_meridians:` | Internationalization and localization.
 `:bento:` | Adding or updating assets.
