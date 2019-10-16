@@ -1,8 +1,8 @@
 ## Init --
 `:tada:` Initial commit.
 
-Adds --
-:sparkles: Introducing new feature.
+## Adds --
+`:sparkles:` Introducing new feature.
 :heavy_plus_sign: Adding a dependency.
 :iphone: Working on responsive design.
 :globe_with_meridians: Internationalization and localization.
