@@ -6,7 +6,7 @@
 | ------------- | ------------- |
 | `:sparkles:`  | Introducing new feature. |
 | `:heavy_plus_sign:`  | Adding a dependency.  |
-| **Another Section**
+ **Another Section**
 | `:iphone:` | Working on responsive design. |
  
  
