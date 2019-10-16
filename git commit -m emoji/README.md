@@ -1,5 +1,5 @@
-Init --
-:tada: Initial commit.
+## Init --
+`:tada:` Initial commit.
 
 Adds --
 :sparkles: Introducing new feature.
