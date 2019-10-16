@@ -1,7 +1,9 @@
 Emoji Code  | Commit Message
 ---|---
+
 **Init --**
 `:tada:` | Initial commit.
+
 **Adds --**
 `:sparkles:`  | Introducing new feature.
 `:heavy_plus_sign:`  | Adding a dependency.
