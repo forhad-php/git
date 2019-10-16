@@ -3,11 +3,11 @@
 
 ## Adds --
 `:sparkles:` Introducing new feature.
-:heavy_plus_sign: Adding a dependency.
-:iphone: Working on responsive design.
-:globe_with_meridians: Internationalization and localization.
-:bento: Adding or updating assets.
-:page_facing_up: Adding or updating license.
+`:heavy_plus_sign:` Adding a dependency.
+`:iphone:` Working on responsive design.
+`:globe_with_meridians:` Internationalization and localization.
+`:bento:` Adding or updating assets.
+`:page_facing_up:` Adding or updating license.
 
 Updates --
 :zap: Improving performance.
