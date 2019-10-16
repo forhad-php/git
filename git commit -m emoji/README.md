@@ -1,3 +1,8 @@
+## Reference:
+1. https://gitmoji.carloscuesta.me/
+2. https://opensource.com/article/19/2/emoji-log-git-commit-messages
+3. https://www.webfx.com/tools/emoji-cheat-sheet/
+
 Emoji Code  | Commit Message
 ---|---
 **Init --**
@@ -34,8 +39,3 @@ Emoji Code  | Commit Message
 `:alembic:` | Experimenting new things
 **RELEASE --**
 `:rocket:` | Deploying stuff.
-
-Reference:
-1. https://gitmoji.carloscuesta.me/
-2. https://opensource.com/article/19/2/emoji-log-git-commit-messages
-3. https://www.webfx.com/tools/emoji-cheat-sheet/
