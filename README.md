@@ -104,13 +104,16 @@ _A list of my commonly used Git commands_
 
 ### Issues
 
-- [x] I was created a new branch in GitLab following the master branch
-- [x] Then I was getting this error below when I tried to checkout new branch:
+- [ ] I was created a new branch in GitLab following the master branch
+- [ ] Then I was getting this error below when I tried to checkout new branch:
+
 `error: pathspec 'BRANCH-NAME' did not match any file(s) known to git.`
 
 - [ ] And this command resolved the issue:
+
 `git remote update`
 
-- [x] Then I try to get all changes from master into new branch with these command:
+- [ ] Then I try to get all changes from master into new branch with these command:
+
 `git checkout <NEW-BRANCH-NAME>`
 `git rebase master`
