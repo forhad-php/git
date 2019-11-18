@@ -81,6 +81,7 @@ _A list of my commonly used Git commands_
 | `git push origin v1.0.(your version)` | Share the tag remotely |
 | `git push --delete origin v1.0.(your version)` | Delete remotely |
 | `git tag -d v1.0.(your version)` | Delete tag in your local |
+| `git tag -l` | Tag list |
 
 ### Inspection & Comparison
 
