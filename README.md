@@ -116,4 +116,5 @@ _A list of my commonly used Git commands_
 - [ ] Then I try to get all changes from master into new branch with these command:
 
 `git checkout <NEW-BRANCH-NAME>`
+
 `git rebase master`
