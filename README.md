@@ -73,6 +73,13 @@ _A list of my commonly used Git commands_
 | `git remote add origin git@github.com/[username]/[repository-name].git` | Add a new remote |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 
+### Tagging
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag v1.0.(your version)` | Creating a new tag |
+| `git push origin v1.0.(your version)` | Share the tag |
+
 ### Inspection & Comparison
 
 | Command | Description |
@@ -91,3 +98,16 @@ _A list of my commonly used Git commands_
 | `Enter same passphrase again:` | And here |
 | `Your public key has been saved in C:\Users\Forhad/.ssh/id_rsa.pub.` |  This is the location of your public key |
 | `clip < C:\Users\Forhad/.ssh/id_rsa.pub` | Write this command and it will automatically be copied to the clipboard. Now paste the key where you want |
+
+### Issues
+
+> I was created a new branch in GitLab _____ from master branch
+> I was getting this error when I tried to checkout new branch:
+`error: pathspec 'BRANCH-NAME' did not match any file(s) known to git.`
+
+- And this command resolved the issue:
+`git remote update`
+
+- Then I try to get all changes from master into new branch with those command:
+`git checkout <NEW-BRANCH-NAME>`
+`git rebase master`
