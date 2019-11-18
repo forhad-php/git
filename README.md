@@ -79,6 +79,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git tag v1.0.(your version)` | Creating a new tag |
 | `git push origin v1.0.(your version)` | Share the tag |
+| `git push --delete origin v1.0.(your version)` | Delete the tag |
 
 ### Inspection & Comparison
 
