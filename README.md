@@ -77,9 +77,10 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git tag v1.0.(your version)` | Creating a new tag |
-| `git push origin v1.0.(your version)` | Share the tag |
-| `git push --delete origin v1.0.(your version)` | Delete the tag |
+| `git tag v1.0.(your version)` | Creating a new tag in your local |
+| `git push origin v1.0.(your version)` | Share the tag remotely |
+| `git push --delete origin v1.0.(your version)` | Delete remotely |
+| `git tag -d v1.0.(your version)` | Delete tag in your local |
 
 ### Inspection & Comparison
 
