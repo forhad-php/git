@@ -5,6 +5,15 @@ _A list of my commonly used Git commands_
 
 -->
 
+### Configuration
+
+| Command | Description |
+| ------- | ----------- |
+| `git --version` | Check if Git has already been installed |
+| `git config --global user.name "YOUR_USERNAME"` | To add your username |
+| `git config --global user.email "your_email_address@example.com"` | To set your email address |
+| `git config --global --list` | Check your information |
+
 ### Getting & Creating Projects
 
 | Command | Description |
