@@ -30,7 +30,8 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git commit -m "first line" -m "second line" -m "third line"` | Multiline commit message |
-| git commit -a -m "message" | Git add and commit in one command |
+| `git commit -a -m "message"` | Git add and commit in one command |
+| `git commit --amend -m "updated message"` | Rewriting the most recent commit message |
 | `git rm -r [file-name.txt]` | Remove a file or folder. `r` for using recursive command. To remove a folder inside another folder `git rm -r [parentFolder/childFolder]` |
 
 ### Branching & Merging
@@ -49,6 +50,7 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git rebase [branch name]` | Moving or combining a sequence of commits to a new base commit |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash list` | View a list of stashed changes |
 | `git stash clear` | Remove all stashed entries |
@@ -80,6 +82,7 @@ _A list of my commonly used Git commands_
 | `git pull` | Downloads and merge all updates into local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote -v` | List of current Git remotes |
+| `git remote update` | Will update all of your branches set to track remote ones, but not merge any changes |
 | `git remote add origin git@github.com/[username]/[repository-name].git` | Add a new remote |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 
@@ -111,11 +114,3 @@ _A list of my commonly used Git commands_
 | `Enter same passphrase again:` | And here |
 | `Your public key has been saved in C:\Users\Forhad/.ssh/id_rsa.pub.` |  This is the location of your public key |
 | `clip < C:\Users\Forhad/.ssh/id_rsa.pub` | Write this command and it will automatically be copied to the clipboard. Now paste the key where you want |
-
-### Issues
-
-| Command | Describe |
-| ------- | ----------- |
-| `git commit --amend -m "updated message"` | Rewriting the most recent commit message |
-| `git remote update` | Will update all of your branches set to track remote ones, but not merge any changes |
-| `git rebase [branch name]` | Moving or combining a sequence of commits to a new base commit |
