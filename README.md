@@ -18,7 +18,7 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git config credential.helper store` | to store credentials on disk. Run this command before push into repository. |
+| `git config credential.helper store` | To store credentials only for this project. Run this command before push into repository. |
 | `git push origin [branch-name]` | Now give the credentials. |
 | `git config --global credential.helper 'cache --timeout 7200'` | To specify caching expire. 7200 seconds (2 hour). |
 
