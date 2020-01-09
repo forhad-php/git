@@ -125,12 +125,10 @@ _A list of my commonly used Git commands_
 
 ### To store SSH passphrase
 
-| Command | Describe |
-| ------- | ----------- |
-| `Get-Service ssh-agent` | Go to "Windows PowerShell" and Run it as administrator then write this command. |
-| `Get-Service ssh-agent | Select StartType` | To check the output of status is not running. Now check that the service has been disabled by running. |
-Now search "service" to windows start and run as administrator,
-- OpenSSH Authentication Agent Properties
-- Startup type: Automatic
-- OK
-| `ssh-add` | Finally write this command and enter passphrase. |
+- Go to "Windows PowerShell" and Run it as administrator then write this command → `Get-Service ssh-agent`
+- To check the output of status is not running. Now check that the service has been disabled by running → `Get-Service ssh-agent | Select StartType`
+- Now search "service" to windows start and run as administrator 
+  - OpenSSH Authentication Agent Properties
+  - Startup type: Automatic
+  - OK
+- Finally write this command and enter passphrase → `ssh-add`
