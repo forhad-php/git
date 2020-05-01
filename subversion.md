@@ -5,4 +5,5 @@
 3. Now you've automaticaly generate 4 folders. Paste your plugin's files and folders in the `trunk` folder
 4. Add all of your trunk → `svn add trunk\*`
 5. Add a commit message → `svn ci -m "Adding first version of my plugin"`
-6. 
+6. Give credential if want.
+7. Done!
