@@ -13,3 +13,4 @@
 1. To check status → `svn st`
 2. List out all the modified files → `svn st | grep "M "`
 3. Commit through modified files → `svn commit -m "commit only modified files"`
+4. Done!
