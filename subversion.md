@@ -23,3 +23,13 @@
 # Delete Existing File/s
 
 1. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
+2. `svn ci -m "message for the commit like deleted folder delete-me"`
+
+# SVN GUI
+
+- After creating/adding or updating someting,
+- right click → SVN Update → SVN Commit...
+
+- To delete or rename someting,
+- right click over the file or folder → TortoiseSVN → Rename.../Delete
+- Again right click → SVN Update → SVN Commit...
