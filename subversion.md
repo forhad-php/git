@@ -5,7 +5,7 @@
 3. Go new plugin folder → `cd new-plugin-name`
 4. Now you've automaticaly generate 4 folders. Paste your plugin's files and folders in the `trunk` folder
 5. Add all of your trunk and assets → `svn add trunk\*` and `svn add assets\*`
-6. Add a commit message → `svn ci -m "Adding first version of my plugin"`
+6. Add a commit message → `svn ci -m "Adding first version of the plugin"`
 7. Give credential if want.
 8. Done!
 
@@ -15,3 +15,7 @@
 2. List out all the modified files → `svn st | grep "M "`
 3. Commit through modified files → `svn commit -m "commit only modified files"`
 4. Done!
+
+# Other Commits
+
+1. Recursively clean up the working copy → `svn cleanup`
