@@ -19,3 +19,7 @@
 # Other Commits
 
 1. Recursively clean up the working copy → `svn cleanup`
+
+# Delete Existing File/s
+
+1. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
