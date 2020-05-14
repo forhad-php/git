@@ -4,7 +4,7 @@
 2. Start Cmder & write this command → `svn co https://plugins.svn.wordpress.org/new-plugin-name`
 3. Go new plugin folder → `cd new-plugin-name`
 4. Now you've automaticaly generate 4 folders. Paste your plugin's files and folders in the `trunk` folder
-5. Add all of your trunk → `svn add trunk\*`
+5. Add all of your trunk and assets → `svn add trunk\*` and `svn add assets\*`
 6. Add a commit message → `svn ci -m "Adding first version of my plugin"`
 7. Give credential if want.
 8. Done!
