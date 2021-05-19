@@ -33,3 +33,5 @@
 - To delete or rename someting,
 - right click over the file or folder → TortoiseSVN → Rename.../Delete
 - Again right click → SVN Update → SVN Commit...
+
+> And finaly using a software https://tortoisesvn.net/downloads.html to quick action without comand.
