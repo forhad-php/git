@@ -1,8 +1,9 @@
 # 'svn' is not recognized?
 1. Download Tortoisesvn from https://tortoisesvn.net/downloads.html and open the exe
-2. Custom setup > untick all, but `command line client tools'.
-3. Press "Next" and continue the installation.
-This will only install `command line client tools` on top of your existing Tortoise.
+2. Click next..
+3. When you reach the screen at Custom Setup, you'll have found `command line client tools'
+4. Click it and set `Will be installed on local hard drive`
+5. Press "Next" and continue the installation.
 
 
 # Starting a New Plugin
