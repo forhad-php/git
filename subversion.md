@@ -1,3 +1,10 @@
+# 'svn' is not recognized?
+1. Download Tortoisesvn from https://tortoisesvn.net/downloads.html and open the exe
+2. Custom setup > untick all, but `command line client tools'.
+3. Press "Next" and continue the installation.
+This will only install `command line client tools` on top of your existing Tortoise.
+
+
 # Starting a New Plugin
 
 1. Go to → `C:\xampp\htdocs\my-wordpress-org-approved-plugins`
