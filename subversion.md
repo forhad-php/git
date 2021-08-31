@@ -14,7 +14,7 @@
 4. Now you've automaticaly generate 4 folders. Paste your plugin's files and folders in the `trunk` folder
 5. Add all of your trunk and assets → `svn add trunk\*` and `svn add assets\*`
 6. Add a commit message → `svn ci -m "Adding first version of the plugin"`
-7. Give credential if want.
+7. Give credential if want. Or commit with credentials → `svn ci -m "Adding first version of my plugin" --username username --password password`
 8. Done!
 
 # Updating an Existing Plugin
