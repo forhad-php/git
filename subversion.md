@@ -48,4 +48,7 @@
 - Again right click over the file or folder → Rename
 - Update → SVN Commit...
 
+#### Clear Authentication Data,
+- Right click → TortoiseSVN → Settings → Saved Data → Authentication Data → Clear/Clear All
+
 > And finaly using a software https://tortoisesvn.net/downloads.html to quick action without comand.
