@@ -38,8 +38,13 @@
 - After creating/adding or updating someting,
 - right click → SVN Update → SVN Commit...
 
-- To delete or rename someting,
-- right click over the file or folder → TortoiseSVN → Rename.../Delete
+### To delete someting,
+- Right click over the file or folder → TortoiseSVN → Delete
 - Again right click → SVN Update → SVN Commit...
+
+### To rename someting,
+- Right click over the file or folder → TortoiseSVN → Repo-browser → Rename the file/folder → OK
+- Again right click over the file or folder → Rename
+- Update → SVN Commit...
 
 > And finaly using a software https://tortoisesvn.net/downloads.html to quick action without comand.
