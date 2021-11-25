@@ -35,14 +35,15 @@
 
 # SVN GUI
 
+#### Commit changes,
 - After creating/adding or updating someting,
 - right click → SVN Update → SVN Commit...
 
-### To delete someting,
+#### To delete someting,
 - Right click over the file or folder → TortoiseSVN → Delete
 - Again right click → SVN Update → SVN Commit...
 
-### To rename someting,
+#### To rename someting,
 - Right click over the file or folder → TortoiseSVN → Repo-browser → Rename the file/folder → OK
 - Again right click over the file or folder → Rename
 - Update → SVN Commit...
