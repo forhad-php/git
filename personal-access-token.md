@@ -7,4 +7,8 @@ From your GitHub account, go to **Settings** => **Developer Settings** => **Pers
 # Set This Token to Your Windows OS
 Go to **Credential Manager** from **Control Panel** => **Windows Credentials** => find `git:https://github.com` => **Edit** => On Password replace with with your **GitHub Personal Access Token** => You are Done
 \
+\
 If you don’t find `git:https://github.com` => Click on **Add a generic credential** => Internet address will be `git:https://github.com` and you need to type in your username and password will be your **GitHub Personal Access Token** => Click Ok and you are done
+\
+\
+Now you can use this token while **git push** command as a password!
