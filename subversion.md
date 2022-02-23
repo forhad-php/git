@@ -32,6 +32,8 @@
 
 1. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
 2. `svn ci -m "message for the commit like deleted folder delete-me"`
+> You can use `svn update` when bunch of files have deleting.
+> Error: svn: directory is out of date..
 
 # SVN GUI
 
