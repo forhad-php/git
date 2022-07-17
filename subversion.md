@@ -28,6 +28,10 @@
 
 1. Recursively clean up the working copy → `svn cleanup`
 
+# Rename Existing File/s
+
+`svn rename old-filename.extension new-filename.extension`
+
 # Delete Existing File/s
 
 1. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
