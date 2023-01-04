@@ -27,15 +27,9 @@
 # Other Commits
 
 1. Recursively clean up the working copy → `svn cleanup`
-
-# Rename Existing File/s
-
-`svn rename old-filename.extension new-filename.extension`
-
-# Delete Existing File/s
-
-1. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
-2. `svn ci -m "message for the commit like deleted folder delete-me"`
+2. Unstage(unadd) a file → `svn revert --recursive folder_or_file_name`
+3. Rename Existing File/s → `svn rename old-filename.extension new-filename.extension`
+4. To delete file/s → `svn delete assets\file-name.png` or `svn delete assets\*`
 > You can use `svn update` when bunch of files have deleting.
 > Error: svn: directory is out of date..
 
