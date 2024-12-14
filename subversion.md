@@ -22,7 +22,7 @@
 1. To check status → `svn st`
 2. List out all the modified files → `svn st | grep "M "`
 3. Commit through modified files → `svn commit -m "commit only modified files"`
-4. Tagging the version if need → `svn copy https://plugins.svn.wordpress.org/plugin-slug/trunk/ https://plugins.svn.wordpress.org/plugin-slug/tags/2.0.0 -m "Tagging version 2.0.0"`
+4. Tagging the version if need, create a folder named version like 2.0.0 in tags folder, then commit → `svn copy https://plugins.svn.wordpress.org/plugin-slug/trunk/ https://plugins.svn.wordpress.org/plugin-slug/tags/2.0.0 -m "Tagging version 2.0.0"`
 
 # Other Commits
 
